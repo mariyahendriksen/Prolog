@@ -346,6 +346,4 @@ collect_st([st(_,Course0,_)|T],Course,Acc,Res):-
 % exam 3
 sh([],B,B).
 sh([H|A], [H|B], [H|S]):- sh(A,B,S).
-sh([H|A],B,[H|S]):- sh(B,A,S).                      
-        
-        
+sh([H|A],B,[H|S]):- sh(B,A,S).      
